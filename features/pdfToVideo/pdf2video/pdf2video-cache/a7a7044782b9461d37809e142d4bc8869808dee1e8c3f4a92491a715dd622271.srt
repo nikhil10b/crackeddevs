@@ -1,0 +1,20 @@
+1
+00:00:00,206 --> 00:00:05,370
+Trivial Dependency -A Functional Dependency X ->Y is said to be trivial functional
+
+2
+00:00:05,370 --> 00:00:11,215
+dependency if y is a subset of X( Y ⊆X). In other words if R.H.S of some FD is the subset
+
+3
+00:00:11,215 --> 00:00:14,666
+of L.H.S of FD is called Trivial Functional Dependency.
+
+4
+00:00:14,666 --> 00:00:19,782
+Axioms: Armstrong’s axioms are a set of rules, that when applied repeatedly
+
+5
+00:00:19,782 --> 00:00:23,992
+generates a closure of functional dependencies. Refer Class notes.
+

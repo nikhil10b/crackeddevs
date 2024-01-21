@@ -1,0 +1,40 @@
+1
+00:00:00,206 --> 00:00:01,129
+Attribute Closure
+
+2
+00:00:01,129 --> 00:00:05,377
+The set of all those attributes which can be functionally determined from an attribute set is
+
+3
+00:00:05,377 --> 00:00:07,415
+called as closure of that attribute set.
+
+4
+00:00:07,415 --> 00:00:10,230
+Steps to find closure of an attribute set:
+
+5
+00:00:10,230 --> 00:00:15,502
+1. Add the attributes contained in the attribute set for which closure is being calculated
+
+6
+00:00:15,502 --> 00:00:16,463
+to the result set.
+
+7
+00:00:16,463 --> 00:00:21,562
+2. Recursively add the attributes to the result set which can be functionally determined
+
+8
+00:00:21,562 --> 00:00:24,390
+from the attributes already contained in the result set.
+
+9
+00:00:24,390 --> 00:00:32,606
+Example: Consider a relation R(A,B,C,D,E,F,G) with the functional dependencies
+
+10
+00:00:32,606 --> 00:00:37,612
+A->BC BC ->DE D->F CF ->G
+

@@ -1,0 +1,36 @@
+1
+00:00:00,206 --> 00:00:02,017
+This is the script for the first page.
+
+2
+00:00:02,017 --> 00:00:04,221
+This is the script for the first page.
+
+3
+00:00:04,221 --> 00:00:06,425
+This is the script for the first page.
+
+4
+00:00:06,425 --> 00:00:08,629
+This is the script for the first page.
+
+5
+00:00:08,629 --> 00:00:10,833
+This is the script for the first page.
+
+6
+00:00:10,833 --> 00:00:13,037
+This is the script for the first page.
+
+7
+00:00:13,037 --> 00:00:15,240
+This is the script for the first page.
+
+8
+00:00:15,240 --> 00:00:17,444
+This is the script for the first page.
+
+9
+00:00:17,444 --> 00:00:19,648
+This is the script for the first page.
+

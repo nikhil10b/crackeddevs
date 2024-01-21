@@ -1,0 +1,24 @@
+1
+00:00:00,206 --> 00:00:06,000
+Full Functional Dependency - In a given relation R, X and Y are attributes. Attribute Y
+
+2
+00:00:06,000 --> 00:00:10,633
+is fully functionally dependent on attribute X only if it is not functionally dependent
+
+3
+00:00:10,633 --> 00:00:13,419
+on sub-set of X where X is composite in nature.
+
+4
+00:00:13,419 --> 00:00:19,463
+Partial Functional Dependency –The FD (functional dependency) A->B happens to be
+
+5
+00:00:19,463 --> 00:00:24,301
+a partial dependency if B is functionally dependent on A, and also B can be determined
+
+6
+00:00:24,301 --> 00:00:26,234
+by any other proper subset of A.
+

@@ -1,0 +1,20 @@
+1
+00:00:00,206 --> 00:00:02,008
+A Functional Dependency describes a
+
+2
+00:00:02,008 --> 00:00:04,058
+relationship between attributes within a
+
+3
+00:00:04,058 --> 00:00:05,080
+single relation.
+
+4
+00:00:05,080 --> 00:00:11,943
+Functional dependency – In a given relation R, X and Y are attributes. Attribute Y is functionally
+
+5
+00:00:11,943 --> 00:00:16,641
+dependent on attribute X if each value of X determines exactly one value of Y.
+

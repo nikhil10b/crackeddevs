@@ -1,0 +1,44 @@
+1
+00:00:00,206 --> 00:00:01,027
+Normalization
+
+2
+00:00:01,027 --> 00:00:06,969
+Normalization is a systematic approach of decomposing tables to eliminate data redundancy and undesirable
+
+3
+00:00:06,969 --> 00:00:10,607
+characteristics like Insertion, Update and Deletion anomalies.
+
+4
+00:00:10,607 --> 00:00:13,597
+▪ These would include two properties
+
+5
+00:00:13,597 --> 00:00:18,845
+o Lossless join property - which guarantees that the generation of spurious tuples will not occur.
+
+6
+00:00:18,845 --> 00:00:24,552
+o Dependency preservation property - This ensures that each functional dependency is represented in
+
+7
+00:00:24,552 --> 00:00:27,596
+some individual relation resulting after decomposition.
+
+8
+00:00:27,596 --> 00:00:34,449
+▪ Prime attribute - An attribute of relation schema R is called a prime attribute of R if it is a member
+
+9
+00:00:34,449 --> 00:00:35,888
+of some candidate key of R.
+
+10
+00:00:35,888 --> 00:00:43,141
+▪ Non-prime attribute - An attribute is called nonprime if it is not a prime attribute—that is, if it is
+
+11
+00:00:43,141 --> 00:00:44,890
+not a member of any candidate key.
+

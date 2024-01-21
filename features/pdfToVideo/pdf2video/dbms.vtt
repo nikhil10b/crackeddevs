@@ -1,0 +1,112 @@
+WEBVTT
+
+00:00.206 --> 00:02.008
+A Functional Dependency describes a
+
+00:02.008 --> 00:04.058
+relationship between attributes within a
+
+00:04.058 --> 00:05.080
+single relation.
+
+00:05.080 --> 00:11.943
+Functional dependency – In a given relation R, X and Y are attributes. Attribute Y is functionally
+
+00:11.943 --> 00:16.641
+dependent on attribute X if each value of X determines exactly one value of Y.
+
+00:16.924 --> 00:22.718
+Full Functional Dependency - In a given relation R, X and Y are attributes. Attribute Y
+
+00:22.718 --> 00:27.351
+is fully functionally dependent on attribute X only if it is not functionally dependent
+
+00:27.351 --> 00:30.137
+on sub-set of X where X is composite in nature.
+
+00:30.137 --> 00:36.181
+Partial Functional Dependency –The FD (functional dependency) A->B happens to be
+
+00:36.181 --> 00:41.019
+a partial dependency if B is functionally dependent on A, and also B can be determined
+
+00:41.019 --> 00:42.952
+by any other proper subset of A.
+
+00:43.230 --> 00:48.394
+Trivial Dependency -A Functional Dependency X ->Y is said to be trivial functional
+
+00:48.394 --> 00:54.239
+dependency if y is a subset of X( Y ⊆X). In other words if R.H.S of some FD is the subset
+
+00:54.239 --> 00:57.690
+of L.H.S of FD is called Trivial Functional Dependency.
+
+00:57.690 --> 01:02.806
+Axioms: Armstrong’s axioms are a set of rules, that when applied repeatedly
+
+01:02.806 --> 01:07.016
+generates a closure of functional dependencies. Refer Class notes.
+
+01:07.288 --> 01:08.211
+Attribute Closure
+
+01:08.211 --> 01:12.459
+The set of all those attributes which can be functionally determined from an attribute set is
+
+01:12.459 --> 01:14.497
+called as closure of that attribute set.
+
+01:14.497 --> 01:17.312
+Steps to find closure of an attribute set:
+
+01:17.312 --> 01:22.584
+1. Add the attributes contained in the attribute set for which closure is being calculated
+
+01:22.584 --> 01:23.545
+to the result set.
+
+01:23.545 --> 01:28.644
+2. Recursively add the attributes to the result set which can be functionally determined
+
+01:28.644 --> 01:31.472
+from the attributes already contained in the result set.
+
+01:31.472 --> 01:39.688
+Example: Consider a relation R(A,B,C,D,E,F,G) with the functional dependencies
+
+01:39.688 --> 01:44.694
+A->BC BC ->DE D->F CF ->G
+
+01:44.983 --> 01:45.804
+Normalization
+
+01:45.804 --> 01:51.746
+Normalization is a systematic approach of decomposing tables to eliminate data redundancy and undesirable
+
+01:51.746 --> 01:55.384
+characteristics like Insertion, Update and Deletion anomalies.
+
+01:55.384 --> 01:58.374
+▪ These would include two properties
+
+01:58.374 --> 02:03.622
+o Lossless join property - which guarantees that the generation of spurious tuples will not occur.
+
+02:03.622 --> 02:09.329
+o Dependency preservation property - This ensures that each functional dependency is represented in
+
+02:09.329 --> 02:12.373
+some individual relation resulting after decomposition.
+
+02:12.373 --> 02:19.226
+▪ Prime attribute - An attribute of relation schema R is called a prime attribute of R if it is a member
+
+02:19.226 --> 02:20.665
+of some candidate key of R.
+
+02:20.665 --> 02:27.918
+▪ Non-prime attribute - An attribute is called nonprime if it is not a prime attribute—that is, if it is
+
+02:27.918 --> 02:29.667
+not a member of any candidate key.

@@ -1,0 +1,46 @@
+#page Page1
+A Functional Dependency describes a
+relationship between attributes within a
+single relation.
+Functional dependency – In a given relation R, X and Y are attributes. Attribute Y is functionally
+dependent on attribute X if each value of X determines exactly one value of Y.
+
+#page Page2
+Full Functional Dependency - In a given relation R, X and Y are attributes. Attribute Y
+is fully functionally dependent on attribute X only if it is not functionally dependent
+on sub-set of X where X is composite in nature.
+Partial Functional Dependency –The FD (functional dependency) A->B happens to be
+a partial dependency if B is functionally dependent on A, and also B can be determined
+by any other proper subset of A.
+
+#page Page3
+Trivial Dependency -A Functional Dependency X ->Y is said to be trivial functional
+dependency if y is a subset of X( Y ⊆X). In other words if R.H.S of some FD is the subset
+of L.H.S of FD is called Trivial Functional Dependency.
+Axioms: Armstrong’s axioms are a set of rules, that when applied repeatedly
+generates a closure of functional dependencies. Refer Class notes.
+
+#page Page4 
+Attribute Closure
+The set of all those attributes which can be functionally determined from an attribute set is
+called as closure of that attribute set.
+Steps to find closure of an attribute set:
+1. Add the attributes contained in the attribute set for which closure is being calculated
+to the result set.
+2. Recursively add the attributes to the result set which can be functionally determined
+from the attributes already contained in the result set.
+Example: Consider a relation R(A,B,C,D,E,F,G) with the functional dependencies
+A->BC BC ->DE D->F CF ->G
+
+#page Page5
+Normalization
+Normalization is a systematic approach of decomposing tables to eliminate data redundancy and undesirable
+characteristics like Insertion, Update and Deletion anomalies.
+▪ These would include two properties
+o Lossless join property - which guarantees that the generation of spurious tuples will not occur.
+o Dependency preservation property - This ensures that each functional dependency is represented in
+some individual relation resulting after decomposition.
+▪ Prime attribute - An attribute of relation schema R is called a prime attribute of R if it is a member
+of some candidate key of R.
+▪ Non-prime attribute - An attribute is called nonprime if it is not a prime attribute—that is, if it is
+not a member of any candidate key.
